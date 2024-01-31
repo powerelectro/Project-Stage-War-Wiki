@@ -2,7 +2,14 @@ body {
   background-color: rgb(50 50, 50);
 }
 
-h1 {
+#maintitle {
   font-family: 'Titillium Web', sans-serif;
-  color:white;
+  color:  white;
+  text-align: center;
+  font-size:  50px;
+}
+
+#topbar {
+  height: 10px;
+  background-color: rgb(70 70, 70);
 }
