@@ -12,4 +12,8 @@ body {
 #topbar {
   height: 10px;
   background-color: rgb(70 70, 70);
+  margin: -8px;
+  overflow: hidden;
+  position: fixed;
+  width: -webkit-fill-available;
 }
