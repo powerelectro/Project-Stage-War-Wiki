@@ -13,20 +13,23 @@ body {
   font-size:  50px;
 }
 
-#topbar {
+.topbar {
   background-color: rgb(70 70, 70);
-  margin: -8px;
   overflow: hidden;
   position: fixed;
   width: 100%;
 }
 
+.topbar a{
+  float:  left;
+  color: white;
+  text-align: center;
+}
+
 #bottombar {
   background-color: goldenrod;
   color:  white;
-  margin: -8px;
   padding:  8px;
-  padding-left: 15px;
   margin-bottom: 0;
   overflow: hidden;
   position: fixed;
