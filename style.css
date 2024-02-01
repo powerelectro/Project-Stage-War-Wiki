@@ -1,0 +1,73 @@
+* {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+ }
+
+body {
+  background-color: rgb(50 50, 50);
+}
+
+#main-title {
+  color:  white;
+  text-align: center;
+}
+
+.topbar {
+  background-color: rgb(30 30, 30);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.sub-title {
+  color : white;
+  text-align :  center;
+}
+
+.top-bar *{
+  float:  left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-bar a:hover {
+  color: rgb(18, 172, 219)k;
+}
+
+.search-container {
+  margin: auto;
+  width: fit-content;
+}
+
+.search-container input[type=text] {
+  background-color: rgb(50 50 50);
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  border-width: 1px 1px 1px 1px;
+  border-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white
+}
+
+.seperator {
+  border-color: gray;
+  margin: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#bottom-bar {
+  background-color: goldenrod;
+  color:  white;
+  padding:  8px;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
