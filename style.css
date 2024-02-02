@@ -41,7 +41,7 @@ body {
   width: fit-content;
 }
 
-.fa fa-search {
+#search {
   height: 34px;
   width: 35px;
   margin-left: -4px;
@@ -55,12 +55,19 @@ body {
   border-radius: 5px;
   width: 200px;
   height: 30px;
+  float: left;
   border-width: 1px 1px 1px 1px;
   border-color: white;
   margin-left: auto;
   margin-right: auto;
   display: block;
   color: white
+}
+
+.split-seperator {
+  margin: 0;
+  width: 300px;
+  margin-top: 17px;
 }
 
 .seperator {
